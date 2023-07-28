@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+
+<style>
+    .box {
+     width: 100px;
+     height: 100px;
+    }
+
+    .box1 {
+     background-color: red;
+    }
+
+    .box2 {
+     background-color: blue;
+     /* position: fixed;
+     bottom: 0;
+     right: 20px;
+     border-radius: 50%; */
+    }
+
+    .box3 {
+     background-color: blueviolet;
+     /* position: sticky; */
+    }
+           /* overflow */
+    p{
+        height: 250px;
+        width: 250px;
+        border: 2px solid red;
+        /* overflow: hidden; */
+        /* overflow: scroll; */
+         /* overflow:auto;  */
+    }
+     /* z-index */
+
+    .one {
+       height: 50px;
+       width: 50px;
+       background-color: red;
+       position: absolute;
+       top: 0;
+       z-index: 2;
+    }
+    .two {  
+       height: 50px;
+       width: 50px;
+       background-color: yellow;
+       position: absolute;
+    }
+    </style>
+</head>
+<body>
+    <!-- Position -->
+    <!-- Absalute,Sticky Relative ,fixed Static -->
+
+    <div class="main">
+        <div class="box  box1"></div>
+        <div class="box  box2"></div>
+        <div class="box  box3"></div>
+    </div>
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quasi perspiciatis laborio ensequuntur quod nemo voluptatibus pariatur laudantium aspernatur mollitia deserunt </p> -->
+
+       <!-- Overflow hidden -->
+    
+       <p>L ipsum. Officiis repudiandae veritatis pariatur obcaecati! Qui molestiae eligendi quibusdam ullam cumque laudantium ex commodi tenetur, suscipit iusto quo quaerat t</p>
+
+       <!-- z-index -->
+       <div class="one"></div>
+       <div class="two"></div>
+    
+</body>
+</html>

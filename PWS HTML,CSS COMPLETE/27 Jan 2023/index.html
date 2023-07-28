@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selector</title>
+</head>
+<style>
+    /* input:focus{
+        color: blue;
+        font-size: 34px;
+    }
+    a:hover{
+        color: pink;
+    }
+    a:active{
+        color: red;
+    }
+     /* a:visited{
+        color: green;
+    }  */
+    /* nav :first-child {
+        color: yellow;
+    } */
+
+   /* nav :nth-child(2){
+        color: red;
+    } */
+
+    /* Pseudo Element */
+
+    /* p::first-line{
+        color: violet;
+    }
+    p::first-letter{
+        color: green;
+    }
+    p::after{
+        content: "-Vinay Vishwakarma";
+        color: blue;
+    }
+    p::before{
+        content: "-Vinay Vishwakarma";
+        color: blue;
+    }
+     p::selection{
+        background-color: black;
+        color: yellow;  
+    }  */
+
+  .grad{
+
+       /* height: 500px; */
+    /* background-image: linear-gradient(to right, red,yellow,green,blue,pink); */
+    /* background-image: radial-gradient(circle,green,yellow,blue); */
+    /* background-image: repeating-radial-gradient(red 10% , green 10%, pink 15%); */
+     background-image: conic-gradient(yellow 210deg,blue ,red); 
+  }
+
+  div{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    /* transition: width 2s;  */
+       transition: height 3s;
+       /* transition-timing-function: ease-out; */
+       transition-delay: 3s;
+  }
+  div:hover{
+    /* width: 200px; */
+    height: 200px;
+  }
+</style>
+<body>
+    <!-- <input type="text">
+    
+    <nav>
+        <a href="https://www.google.com/">Google</a>
+
+        <a href="Google">Google</a>
+    </nav> -->
+
+
+      <!-- Pseudo Element -->
+
+      <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat excepturi explicabo modi, saepe quisquam quasi neque nemo assumenda debitis, reprehenderit laudantium accusantium, molestias nisi aperiam consequuntur totam? Ipsam molestiae deserunt, culpa sunt aperiam nihil sit alias eligendi officia facere voluptate omnis in non ad totam. Fugiat quidem amet eligendi explicabo?</p> -->
+
+            <!-- Gradients -->
+
+            <!-- <div class="grad"></div> -->
+
+
+            <!-- Transition and Tooltips  -->
+        <div></div>
+            <!-- Tooltips -->
+        <p title="Hello Vinay">Lorem3</p>
+          
+</body>
+</html>

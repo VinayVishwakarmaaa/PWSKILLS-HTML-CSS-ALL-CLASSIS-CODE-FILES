@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Row and column in grid</title>
+</head>
+<style>
+    /* .container{
+        display: grid;
+        grid-template-columns:repeat(1 1fr 1fr);
+        grid-template-rows: 600px 100px 100px;
+    }
+    .box{
+         /* height: 100px; */
+         /* width: 100px;  */ 
+         /* margin: 10px; */
+        
+    /* }
+    .box1{
+        background-color: red;
+        border: 2px solid black;
+        justify-content: start;
+    }
+    .box2{
+        background-color: blue;
+    }
+    .box3{
+        background-color: green;
+    } */
+         /* Grid Album */
+ 
+  .container{
+     display: grid;
+     height: 700px;
+     grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: repeat(3, 160px);
+  }
+.box{
+  /* height: 100px;
+    width: 100px; */
+}
+
+  .box1{
+    background-color: red;
+   grid-column-start: 1 ;
+   grid-column-end: 4; 
+  }
+
+  .box2{
+    background-color: green;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .box3{
+    background-color: blue;
+  }
+  .box4{
+    background-color: violet;
+  }
+
+  .box5{
+    background-color: khaki;
+  }
+  .box6{
+    background-color: royalblue;
+  }
+  .box7{
+    background-color: blanchedalmond;
+  }
+
+  .box8{
+    background-color: purple;
+  }
+
+  .box9{
+    background-color: peru;
+  }
+  
+  .box10{
+    background-color: aqua;
+  }
+</style>
+<body>
+    <!-- Grid System -->
+     
+    <!-- <div class="container">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+    </div>
+     -->
+
+
+         <!-- Album With Grid -->
+
+         <div class="container">
+            <div class="box box1">
+                <div class1="box box10"></div>
+            </div>
+            <div class="box box2"></div>
+            <div class="box box3"></div>
+            <div class="box box4"></div>
+            <div class="box box5"></div>
+            <div class="box box6"></div>
+            <div class="box box7"></div>
+            <div class="box box8"></div>
+            <div class="box box9"></div>
+         </div>
+</body>
+</html>

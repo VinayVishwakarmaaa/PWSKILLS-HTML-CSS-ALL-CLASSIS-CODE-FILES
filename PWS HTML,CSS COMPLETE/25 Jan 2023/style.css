@@ -1,0 +1,94 @@
+/* body{
+    background-color: #808800;
+    text-align: center;  
+    color: white; 
+} */
+
+body{
+    background-color: white;
+}
+
+/* Universal Selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+   /* Element Selector */
+   /* h1{
+      text-align: center;
+   }
+
+   p{
+    color: brown;
+   } */
+
+   /* Class Selector */
+   
+ /* .pra{
+    color: brown;
+   } 
+
+.hello{
+    font-size: 60px;
+    color: blue;
+}
+
+    /* Id Selector */
+
+    /* #id1{
+        color: aquamarine;
+        background-color: red;
+    } */ 
+
+    /* Selector List */
+
+    /* .class1, .class2, .class3{
+        color: blueviolet;
+    } */
+
+    /* Descendent Selector */
+
+    /* main p{
+        color: red;
+    } */
+
+    /* Child Selector */
+
+    /* main > p{
+        color: blue;
+    } */
+
+    /* adjacent sibling selector */
+ /* main + p {
+        color: green;
+    } 
+ */
+
+    /* section ~ p{
+        color: red;
+    } */
+
+    /* attribute selector */
+
+    /* [target="_blank"]{
+        color: pink;
+        text-decoration: none;
+    }
+
+    [alt~="pw"]{
+        color: blue;
+        
+    } */
+
+    h1{
+        margin: 190px;
+        border-bottom: 23px;
+    }
+
+    body{
+        background-image: url('');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
